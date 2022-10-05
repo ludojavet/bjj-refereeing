@@ -1,0 +1,23 @@
+{
+  "name": "bjj_refereeing",
+  "version": "1.0.0",
+  "description": "A cross-platform application for Brazilian Jiu Jitsu refereeing",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ludojavet/bjj_refereeing.git"
+  },
+  "author": "ludojavet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ludojavet/bjj_refereeing/issues"
+  },
+  "homepage": "https://github.com/ludojavet/bjj_refereeing#readme",
+  "devDependencies": {
+    "electron": "^21.0.1"
+  }
+}
