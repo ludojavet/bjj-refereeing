@@ -5,5 +5,11 @@ const func = async () => {
     const response = await window.versions.ping()
     console.log(response) // Affichera 'pong'
 }
+
+const btnclick = document.getElementById('test');
+btnclick.addEventListener('click', (event) => {
+    console.log(event.button)
+})
+  
   
 func()
